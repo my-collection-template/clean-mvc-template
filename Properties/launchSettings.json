@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "clean-mvc-template": {
+      // Removed IIS, left Kestrel Server from cross-platform
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:50287/"
+    }
+  }
+}
